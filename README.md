@@ -18,8 +18,8 @@ Explore the process of fine-tuning OpenAI's GPT model with domain-specific data 
 ### [Notebook 3: JSON mode and fine-tuning Mistral and Llama using AnyScale](#)
 This notebook shows how to perform fine-tuning on the AnyScale platform for open LLMs like Llama-13b, Mistral-7b and Mistral-8x7B.
 
-### [Notebook 4: Fine-tuning Mistral-7b on HuggingFace and WandB](#)
-This notebook delves into more advanced data extraction techniques, including fine-tuning large language models on environmental datasets and leveraging the latest in AI research to improve data extraction efficiency and accuracy.
+### [Notebook 4: LoRA Fine-tuning Mistral-7b on HuggingFace and WandB](#)
+This notebook uses HuggingFace's `trl` library perform parameter efficient fine-tuning (PEFT) on Mistral-7b for our JSON generation task.
 
 ## Getting Started
 
