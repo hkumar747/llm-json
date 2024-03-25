@@ -2,21 +2,23 @@
 
 ### Atlas-USACE project
 
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg) ![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange.svg) ![OpenAI](https://img.shields.io/badge/OpenAI-API-green.svg)
-
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg) ![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange.svg) 
 This repository hosts a series of Jupyter notebooks that demonstrate the extraction and analysis of environmental impact data from textual descriptions of USACE (U.S. Army Corps of Engineers) wetland projects. Leveraging both traditional NLP techniques and advanced machine learning models from OpenAI, these notebooks provide a comprehensive guide to understanding and predicting the environmental impacts of proposed projects.
 
 The core task we want to accomplish here is to convert a text passage into a structured dictionary of key-value pairs:
 
 ## Overview of Notebooks
 
-### [Notebook 1: Extract Fields from PDF Text](#)
+### [Notebook 1: Extract JSON from text using OpenAI](#)
 In this notebook, we focus on extracting key information from PDF documents related to wetland projects. Techniques include abstractive summarization, regular expressions for data extraction, and querying OpenAI's API for structured data extraction.
 
-### [Notebook 2: Fine-Tuning and Inference with OpenAI](#)
+### [Notebook 2: Fine-Tuning OpenAI GPT-3.5](#)
 Explore the process of fine-tuning OpenAI's GPT model with domain-specific data and using the model to extract structured information from project descriptions.
 
-### [Notebook 3: Advanced Techniques for Environmental Data Extraction](#)
+### [Notebook 3: JSON mode and fine-tuning Mistral and Llama using AnyScale](#)
+This notebook shows how to perform fine-tuning on the AnyScale platform for open LLMs like Llama-13b, Mistral-7b and Mistral-8x7B.
+
+### [Notebook 4: Fine-tuning Mistral-7b on HuggingFace and WandB](#)
 This notebook delves into more advanced data extraction techniques, including fine-tuning large language models on environmental datasets and leveraging the latest in AI research to improve data extraction efficiency and accuracy.
 
 ## Getting Started
