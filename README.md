@@ -8,9 +8,7 @@ This repository hosts a series of Jupyter notebooks that demonstrate the extract
 The core task we want to accomplish here is to convert a text passage into a structured dictionary of key-value pairs:
 
 **Input:**
-```
-'This project would place approximately 855 cubic yards of commercially obtained fill material within 23,087 square feet (0. 53 acres) of herbaceous wetlands for phase II of a single-family housing subdivision.
-```
+>>'This project would place approximately 855 cubic yards of commercially obtained fill material within 23,087 square feet (0. 53 acres) of herbaceous wetlands for >>phase II of a single-family housing subdivision.
 
 **Output:**
 ```
