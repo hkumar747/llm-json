@@ -7,6 +7,29 @@ This repository hosts a series of Jupyter notebooks that demonstrate the extract
 
 The core task we want to accomplish here is to convert a text passage into a structured dictionary of key-value pairs:
 
+**Input:**
+```
+'This project would place approximately 855 cubic yards of commercially obtained fill material within 23,087 square feet (0. 53 acres) of herbaceous wetlands for phase II of a single-family housing subdivision.
+```
+
+**Output:**
+```
+{
+  "wetlands": [
+    {
+      "wetland_type": herbaceous "wetlands",
+      "impact_quantity": "0.53",
+      "impact_unit": "acres",
+      "impact_duration": "unknown",
+      "impact_type": "fill",
+      "project_type:" "residential",
+    }
+  ]
+}
+
+```
+
+
 ## Overview of Notebooks
 
 ### [Notebook 1: Extract JSON from text using OpenAI](#)
